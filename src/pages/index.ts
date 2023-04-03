@@ -1,1 +1,2 @@
-export { default as  } from ""
+export * from "./Home";
+export * from "./About";
