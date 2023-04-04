@@ -16,7 +16,7 @@ export const UploadDictionary = async (
   walletid: string
 ) => {
   await axios
-    .get("/define")
+    .post(`/define/${id}/${walletid}`, data)
     .then((res) => res.data)
     .catch((err) => {
       return err;
