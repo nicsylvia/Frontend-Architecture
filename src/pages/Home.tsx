@@ -8,7 +8,7 @@ const Home = () => {
     queryFn: FetchDictionary,
     queryKey: ["Dictionary"],
   });
-
+  console.log("DICTIONARY: ", data);
   // const id = "";
   // const walletid = "";
 

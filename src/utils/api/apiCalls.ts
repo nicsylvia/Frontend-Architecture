@@ -2,7 +2,7 @@ import { IUSER } from "../../types";
 import axios from "./api";
 
 export const FetchDictionary = async () => {
-  await axios
+  return await axios
     .get("/define")
     .then((res) => res.data)
     .catch((err) => {
